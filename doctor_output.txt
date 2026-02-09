@@ -1,0 +1,16 @@
+Running 17 checks on your project...
+15/17 checks passed. 2 checks failed. Possible issues detected:
+Use the --verbose flag to see more details about passed checks.
+
+??? Check for lock file
+No lock file detected.
+Advice:
+Install dependencies using the package manager of your choice to a generate a lock file.
+
+??? Check that required peer dependencies are installed
+Missing peer dependency: react-native-svg
+Required by: lucide-react-native
+Advice:
+Install missing required peer dependency with "npx expo install react-native-svg"
+Your app may crash outside of Expo Go without this dependency. Native module peer dependencies must be installed directly.
+

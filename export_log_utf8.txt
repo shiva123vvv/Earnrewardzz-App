@@ -1,0 +1,24 @@
+﻿Starting Metro Bundler
+Android node_modules\expo-router\entry.js ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ  0.0% (0/1)
+Android Bundling failed 725ms node_modules\expo-router\entry.js (1 module)
+node.exe : SyntaxError: node_modules\expo-router\entry.js: [BABEL]: Cannot find module 'react-native-worklets/plugin'
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\shiva\AppData\Roaming\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (SyntaxError: no...orklets/plugin':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Require stack:
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\react-native-reanimated\plugin\index.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\@babel\core\lib\config\files\module-types.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\@babel\core\lib\config\files\configuration.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\@babel\core\lib\config\files\index.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\@babel\core\lib\index.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\@expo\metro-config\build\transform-worker\metro-transform-
+worker.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\@expo\metro-config\build\transform-worker\transform-worker
+.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\metro\src\DeltaBundler\Worker.flow.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\metro\src\DeltaBundler\Worker.js
+- C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\jest-worker\build\workers\processChild.js (While 
+processing: C:\Users\shiva\OneDrive\Desktop\Funds\add\app\node_modules\react-native-reanimated\plugin\index.js)
